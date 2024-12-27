@@ -38,7 +38,7 @@ A dynamic terminal greeting script that delivers personalized, time-based motiva
 
 ## 📥 Installation
 ```bash
-https://github.com/Harshil-Anuwadia/UltimateGreet.git
+git clone https://github.com/Harshil-Anuwadia/UltimateGreet.git
 cd UltimateGreet
 chmod +x ug_installer.sh
 ./ug_installer.sh
