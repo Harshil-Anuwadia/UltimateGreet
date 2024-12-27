@@ -1,177 +1,80 @@
-# 🚀 Ultimate Terminal Greeting v2.0
+# 🚀 Ultimate Terminal Greeting
 
-Transform your terminal into an inspiring command center! This advanced greeting script delivers dynamic, time-based motivational messages with stunning animations and customizable themes.
+A dynamic terminal greeting script that delivers personalized, time-based motivational messages.
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/ultimate-terminal-greeting?style=social)
+![Version](https://img.shields.io/badge/version-1.0-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Version](https://img.shields.io/badge/version-2.0-green.svg)
 
-## ✨ Features
+## ✨ Current Features
 
-### Core Features
-- 🌅 Time-aware greetings with dynamic color schemes
-- 🎨 Stunning ASCII art animations
-- 💪 100+ motivational messages
-- 🌈 Terminal-safe color transitions
-- ⚡ Performance optimized (~0.1s load time)
-- 🔄 Auto-update system
+### Time-Based Greetings
+- Morning (5 AM - 12 PM): Energetic, motivational messages
+- Afternoon (12 PM - 4 PM): Productivity-focused messages
+- Evening (4 PM - 8 PM): Reflective, calming messages
+- Night (8 PM - 5 AM): Restful, preparatory messages
 
-### Advanced Features
-- 🎵 Optional ASCII sound visualizer
-- 🌍 Multiple language support
-- 🎮 Interactive mode with daily challenges
-- 📊 Productivity tracking
-- 🎨 Theme engine with community themes
-- 🔌 Plugin system for extensions
+### Visual Elements
+- Animated installation progress bar
+- Colored output for different times of day
+- Flashing system active notification
+- Character-by-character message animation
+
+### Customization
+- Personalized name integration
+- Support for both bash and zsh shells
+- Configurable installation directory
+- 16 unique messages per time period
+
+### System Integration
+- Automatic shell detection
+- Dependency checking (curl)
+- Permanent shell configuration
+- Clean installation process
 
 ## 🛠️ Requirements
-
 - Unix-like OS (Linux/MacOS)
-- bash (4.0+) or zsh
+- bash or zsh shell
 - curl
-- Optional: lolcat, figlet for enhanced visuals
 
-## 📥 Quick Installation
-
+## 📥 Installation
 ```bash
-# One-line installer (Recommended)
-curl -fsSL https://raw.githubusercontent.com/yourusername/ultimate-terminal-greeting/main/install.sh | bash
-
-# OR Manual installation
 git clone https://github.com/yourusername/ultimate-terminal-greeting.git
 cd ultimate-terminal-greeting
 chmod +x install.sh
 ./install.sh
 ```
 
-## 🔧 Advanced Installation Guide
+## 🐛 Known Issues
+1. Shell sourcing may require terminal restart
+2. Message animation speed might be slow on some systems
+3. Color codes may not work in all terminal emulators
 
-### Step 1: Configuration
-```bash
-# Generate config file
-./install.sh --config
-
-# Enable all features
-./install.sh --full
-
-# Minimal installation
-./install.sh --minimal
-```
-
-### Step 2: Theme Selection
-```bash
-# List available themes
-./install.sh --list-themes
-
-# Install specific theme
-./install.sh --theme cyberpunk
-```
-
-### Step 3: Plugin Installation
-```bash
-# List available plugins
-./install.sh --list-plugins
-
-# Install productivity tracker
-./install.sh --plugin productivity
-```
-
-## 🐛 Common Issues & Fixes
-
-### Invalid Color Codes
-```bash
-# Fix color issues
-./repair.sh --fix-colors
-
-# Reset to default theme
-./repair.sh --reset-theme
-```
-
-### Slow Loading Times
-```bash
-# Optimize cache
-./repair.sh --optimize
-
-# Clear message cache
-./repair.sh --clear-cache
-```
+## 🔧 Troubleshooting
 
 ### Shell Integration Issues
 ```bash
-# Repair shell integration
-./repair.sh --fix-shell
-
-# Force reinstall
-./repair.sh --force
+# Manual source after installation
+source ~/.bashrc  # For bash
+source ~/.zshrc   # For zsh
 ```
 
-## 🎨 Customization
-
-### Theme Engine
+### Color Display Problems
 ```bash
-# Create custom theme
-mkdir -p ~/.ultimate_greet/themes/mytheme
-cp templates/theme.json ~/.ultimate_greet/themes/mytheme/
+# Check terminal color support
+echo $TERM
 
-# Apply theme
-./configure.sh --apply-theme mytheme
-```
-
-### Message Customization
-```bash
-# Add custom messages
-echo "Your custom message" >> ~/.ultimate_greet/messages/custom.txt
-
-# Enable custom messages
-./configure.sh --enable-custom
+# Force basic colors
+export TERM=xterm-256color
 ```
 
 ## 🤝 Contributing
-
-### Before Contributing:
-1. 🌟 Star this repository
-2. 🔄 Fork the repository
-3. 📖 Read our [Contributing Guidelines](CONTRIBUTING.md)
-
-### Development Setup
-```bash
-# Install development dependencies
-./install.sh --dev
-
-# Run tests
-./test.sh
-
-# Submit PR
-1. Create feature branch
-2. Make changes
-3. Run tests
-4. Submit PR
-```
-
-### Feature Requests
-- Open an issue with tag [FEATURE]
-- Use the feature request template
-- Include sample code if possible
-
-## 🎁 Support the Project
-
-If you find this project useful:
-- ⭐ Star the repository
-- 🔄 Fork it and contribute
-- 🐛 Report bugs
-- 📝 Improve documentation
-- 🎨 Submit themes
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Submit a pull request
 
 ## 📜 License
-
-MIT License - See [LICENSE](LICENSE) for details
-
-## 🏆 Contributors
-
-<a href="https://github.com/Harshil-Anuwadia/ultimate-terminal-greeting/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=yourusername/ultimate-terminal-greeting" />
-</a>
+MIT License
 
 ---
-
-Made with ❤️ by the Ultimate Terminal Greeting Team
+⭐ Star this repo if you find it useful!
