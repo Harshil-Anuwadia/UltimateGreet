@@ -40,7 +40,7 @@ A dynamic terminal greeting script that delivers personalized, time-based motiva
 ```bash
 https://github.com/Harshil-Anuwadia/UltimateGreet.git
 cd UltimateGreet
-chmod +x ug_install.sh
+chmod +x ug_installer.sh
 ./ug_install.sh
 ```
 
