@@ -38,10 +38,10 @@ A dynamic terminal greeting script that delivers personalized, time-based motiva
 
 ## 📥 Installation
 ```bash
-git clone https://github.com/yourusername/ultimate-terminal-greeting.git
-cd ultimate-terminal-greeting
-chmod +x install.sh
-./install.sh
+https://github.com/Harshil-Anuwadia/UltimateGreet.git
+cd UltimateGreet
+chmod +x ug_install.sh
+./ug_install.sh
 ```
 
 ## 🐛 Known Issues
